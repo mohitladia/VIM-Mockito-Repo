@@ -9,14 +9,14 @@
 
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
-apply plugin: 'sonar-runner'
-
+//apply plugin: 'sonar-runner'
+/*
 sonarRunner {
  sonarProperties {
    property "sonar.projectName", "My Project Name"
    property "sonar.projectKey", "org.sonarqube:java-gradle-simple"
  }
-}
+}*/
 
 // In this section you declare where to find the dependencies of your project
 repositories {
